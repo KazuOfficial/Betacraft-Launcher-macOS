@@ -1,0 +1,1 @@
+# Betacraft-Launcher-macOS
