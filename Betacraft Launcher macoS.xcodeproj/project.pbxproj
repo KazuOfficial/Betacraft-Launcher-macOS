@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B9CA346244F4E6E00C0B45B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CA345244F4E6E00C0B45B /* AppDelegate.swift */; };
+		3B9CA348244F4E6E00C0B45B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CA347244F4E6E00C0B45B /* ViewController.swift */; };
+		3B9CA34A244F4E6E00C0B45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9CA349244F4E6E00C0B45B /* Assets.xcassets */; };
+		3B9CA34D244F4E6E00C0B45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9CA34B244F4E6E00C0B45B /* Main.storyboard */; };
+		3B9CA359244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CA358244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift */; };
+		3B9CA364244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CA363244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B9CA355244F4E6E00C0B45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9CA33A244F4E6D00C0B45B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9CA341244F4E6D00C0B45B;
+			remoteInfo = "Betacraft Launcher macoS";
+		};
+		3B9CA360244F4E6E00C0B45B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B9CA33A244F4E6D00C0B45B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9CA341244F4E6D00C0B45B;
+			remoteInfo = "Betacraft Launcher macoS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B9CA342244F4E6D00C0B45B /* Betacraft Launcher macoS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Betacraft Launcher macoS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9CA345244F4E6E00C0B45B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B9CA347244F4E6E00C0B45B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B9CA349244F4E6E00C0B45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B9CA34C244F4E6E00C0B45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B9CA34E244F4E6E00C0B45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9CA34F244F4E6E00C0B45B /* Betacraft_Launcher_macoS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Betacraft_Launcher_macoS.entitlements; sourceTree = "<group>"; };
+		3B9CA354244F4E6E00C0B45B /* Betacraft Launcher macoSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Betacraft Launcher macoSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9CA358244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Betacraft_Launcher_macoSTests.swift; sourceTree = "<group>"; };
+		3B9CA35A244F4E6E00C0B45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9CA35F244F4E6E00C0B45B /* Betacraft Launcher macoSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Betacraft Launcher macoSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9CA363244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Betacraft_Launcher_macoSUITests.swift; sourceTree = "<group>"; };
+		3B9CA365244F4E6E00C0B45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B9CA33F244F4E6D00C0B45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9CA351244F4E6E00C0B45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9CA35C244F4E6E00C0B45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9CA339244F4E6D00C0B45B = {
+			isa = PBXGroup;
+			children = (
+				3B9CA344244F4E6D00C0B45B /* Betacraft Launcher macoS */,
+				3B9CA357244F4E6E00C0B45B /* Betacraft Launcher macoSTests */,
+				3B9CA362244F4E6E00C0B45B /* Betacraft Launcher macoSUITests */,
+				3B9CA343244F4E6D00C0B45B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B9CA343244F4E6D00C0B45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9CA342244F4E6D00C0B45B /* Betacraft Launcher macoS.app */,
+				3B9CA354244F4E6E00C0B45B /* Betacraft Launcher macoSTests.xctest */,
+				3B9CA35F244F4E6E00C0B45B /* Betacraft Launcher macoSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B9CA344244F4E6D00C0B45B /* Betacraft Launcher macoS */ = {
+			isa = PBXGroup;
+			children = (
+				3B9CA345244F4E6E00C0B45B /* AppDelegate.swift */,
+				3B9CA347244F4E6E00C0B45B /* ViewController.swift */,
+				3B9CA349244F4E6E00C0B45B /* Assets.xcassets */,
+				3B9CA34B244F4E6E00C0B45B /* Main.storyboard */,
+				3B9CA34E244F4E6E00C0B45B /* Info.plist */,
+				3B9CA34F244F4E6E00C0B45B /* Betacraft_Launcher_macoS.entitlements */,
+			);
+			path = "Betacraft Launcher macoS";
+			sourceTree = "<group>";
+		};
+		3B9CA357244F4E6E00C0B45B /* Betacraft Launcher macoSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B9CA358244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift */,
+				3B9CA35A244F4E6E00C0B45B /* Info.plist */,
+			);
+			path = "Betacraft Launcher macoSTests";
+			sourceTree = "<group>";
+		};
+		3B9CA362244F4E6E00C0B45B /* Betacraft Launcher macoSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B9CA363244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift */,
+				3B9CA365244F4E6E00C0B45B /* Info.plist */,
+			);
+			path = "Betacraft Launcher macoSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B9CA341244F4E6D00C0B45B /* Betacraft Launcher macoS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9CA368244F4E6E00C0B45B /* Build configuration list for PBXNativeTarget "Betacraft Launcher macoS" */;
+			buildPhases = (
+				3B9CA33E244F4E6D00C0B45B /* Sources */,
+				3B9CA33F244F4E6D00C0B45B /* Frameworks */,
+				3B9CA340244F4E6D00C0B45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Betacraft Launcher macoS";
+			productName = "Betacraft Launcher macoS";
+			productReference = 3B9CA342244F4E6D00C0B45B /* Betacraft Launcher macoS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B9CA353244F4E6E00C0B45B /* Betacraft Launcher macoSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9CA36B244F4E6E00C0B45B /* Build configuration list for PBXNativeTarget "Betacraft Launcher macoSTests" */;
+			buildPhases = (
+				3B9CA350244F4E6E00C0B45B /* Sources */,
+				3B9CA351244F4E6E00C0B45B /* Frameworks */,
+				3B9CA352244F4E6E00C0B45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B9CA356244F4E6E00C0B45B /* PBXTargetDependency */,
+			);
+			name = "Betacraft Launcher macoSTests";
+			productName = "Betacraft Launcher macoSTests";
+			productReference = 3B9CA354244F4E6E00C0B45B /* Betacraft Launcher macoSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B9CA35E244F4E6E00C0B45B /* Betacraft Launcher macoSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9CA36E244F4E6E00C0B45B /* Build configuration list for PBXNativeTarget "Betacraft Launcher macoSUITests" */;
+			buildPhases = (
+				3B9CA35B244F4E6E00C0B45B /* Sources */,
+				3B9CA35C244F4E6E00C0B45B /* Frameworks */,
+				3B9CA35D244F4E6E00C0B45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B9CA361244F4E6E00C0B45B /* PBXTargetDependency */,
+			);
+			name = "Betacraft Launcher macoSUITests";
+			productName = "Betacraft Launcher macoSUITests";
+			productReference = 3B9CA35F244F4E6E00C0B45B /* Betacraft Launcher macoSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B9CA33A244F4E6D00C0B45B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kazu;
+				TargetAttributes = {
+					3B9CA341244F4E6D00C0B45B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3B9CA353244F4E6E00C0B45B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B9CA341244F4E6D00C0B45B;
+					};
+					3B9CA35E244F4E6E00C0B45B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B9CA341244F4E6D00C0B45B;
+					};
+				};
+			};
+			buildConfigurationList = 3B9CA33D244F4E6D00C0B45B /* Build configuration list for PBXProject "Betacraft Launcher macoS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B9CA339244F4E6D00C0B45B;
+			productRefGroup = 3B9CA343244F4E6D00C0B45B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B9CA341244F4E6D00C0B45B /* Betacraft Launcher macoS */,
+				3B9CA353244F4E6E00C0B45B /* Betacraft Launcher macoSTests */,
+				3B9CA35E244F4E6E00C0B45B /* Betacraft Launcher macoSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B9CA340244F4E6D00C0B45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9CA34A244F4E6E00C0B45B /* Assets.xcassets in Resources */,
+				3B9CA34D244F4E6E00C0B45B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9CA352244F4E6E00C0B45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9CA35D244F4E6E00C0B45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B9CA33E244F4E6D00C0B45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9CA348244F4E6E00C0B45B /* ViewController.swift in Sources */,
+				3B9CA346244F4E6E00C0B45B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9CA350244F4E6E00C0B45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9CA359244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B9CA35B244F4E6E00C0B45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9CA364244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B9CA356244F4E6E00C0B45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B9CA341244F4E6D00C0B45B /* Betacraft Launcher macoS */;
+			targetProxy = 3B9CA355244F4E6E00C0B45B /* PBXContainerItemProxy */;
+		};
+		3B9CA361244F4E6E00C0B45B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B9CA341244F4E6D00C0B45B /* Betacraft Launcher macoS */;
+			targetProxy = 3B9CA360244F4E6E00C0B45B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B9CA34B244F4E6E00C0B45B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9CA34C244F4E6E00C0B45B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B9CA366244F4E6E00C0B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B9CA367244F4E6E00C0B45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3B9CA369244F4E6E00C0B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Betacraft Launcher macoS/Betacraft_Launcher_macoS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Betacraft Launcher macoS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3B9CA36A244F4E6E00C0B45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Betacraft Launcher macoS/Betacraft_Launcher_macoS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Betacraft Launcher macoS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3B9CA36C244F4E6E00C0B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Betacraft Launcher macoSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Betacraft Launcher macoS.app/Contents/MacOS/Betacraft Launcher macoS";
+			};
+			name = Debug;
+		};
+		3B9CA36D244F4E6E00C0B45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Betacraft Launcher macoSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Betacraft Launcher macoS.app/Contents/MacOS/Betacraft Launcher macoS";
+			};
+			name = Release;
+		};
+		3B9CA36F244F4E6E00C0B45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Betacraft Launcher macoSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Betacraft Launcher macoS";
+			};
+			name = Debug;
+		};
+		3B9CA370244F4E6E00C0B45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Betacraft Launcher macoSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Betacraft Launcher macoS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B9CA33D244F4E6D00C0B45B /* Build configuration list for PBXProject "Betacraft Launcher macoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9CA366244F4E6E00C0B45B /* Debug */,
+				3B9CA367244F4E6E00C0B45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9CA368244F4E6E00C0B45B /* Build configuration list for PBXNativeTarget "Betacraft Launcher macoS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9CA369244F4E6E00C0B45B /* Debug */,
+				3B9CA36A244F4E6E00C0B45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9CA36B244F4E6E00C0B45B /* Build configuration list for PBXNativeTarget "Betacraft Launcher macoSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9CA36C244F4E6E00C0B45B /* Debug */,
+				3B9CA36D244F4E6E00C0B45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9CA36E244F4E6E00C0B45B /* Build configuration list for PBXNativeTarget "Betacraft Launcher macoSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9CA36F244F4E6E00C0B45B /* Debug */,
+				3B9CA370244F4E6E00C0B45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B9CA33A244F4E6D00C0B45B /* Project object */;
+}
