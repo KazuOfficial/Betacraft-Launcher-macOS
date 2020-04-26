@@ -7,12 +7,13 @@
 //
 
 import Cocoa
+import MapKit
 
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let url = URL(string: "https://betacraft.pl/")
         // Do any additional setup after loading the view.
     }
 
