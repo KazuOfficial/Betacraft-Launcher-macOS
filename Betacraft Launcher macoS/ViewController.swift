@@ -11,8 +11,11 @@ import WebKit
 
 class ViewController: NSViewController {
     
+    @IBOutlet weak var myButton: NSButton!
+    @IBOutlet weak var myVersions: NSButton!
     @IBOutlet weak var myWebView: WKWebView!
     let url:URL = URL(string: "https://betacraft.pl/versions/")!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,5 +30,11 @@ class ViewController: NSViewController {
         }
     }
     
+    @IBAction func showOptions(sender: AnyObject) {
+        print("jes")
+    }
     
+    @IBAction func showVersions(sender: AnyObject) {
+        print("versions")
+    }
 }

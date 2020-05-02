@@ -13,6 +13,8 @@
 		3B9CA34D244F4E6E00C0B45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9CA34B244F4E6E00C0B45B /* Main.storyboard */; };
 		3B9CA359244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CA358244F4E6E00C0B45B /* Betacraft_Launcher_macoSTests.swift */; };
 		3B9CA364244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9CA363244F4E6E00C0B45B /* Betacraft_Launcher_macoSUITests.swift */; };
+		3BC692C7245CA58100177C70 /* Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC692C6245CA58100177C70 /* Options.xib */; };
+		3BF45FF1245DE6C80063C63C /* NewWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF45FF0245DE6C80063C63C /* NewWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		3B9CA365244F4E6E00C0B45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC191FE245C84AC00F53E42 /* Betacraft Launcher macoS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Betacraft Launcher macoS.entitlements"; sourceTree = "<group>"; };
 		3BC19208245C868D00F53E42 /* 8f24dd07579f5ca65d78c8a279e0bac4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8f24dd07579f5ca65d78c8a279e0bac4.jpg; sourceTree = "<group>"; };
+		3BC692C6245CA58100177C70 /* Options.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Options.xib; sourceTree = "<group>"; };
+		3BF45FF0245DE6C80063C63C /* NewWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3B9CA34B244F4E6E00C0B45B /* Main.storyboard */,
 				3B9CA34E244F4E6E00C0B45B /* Info.plist */,
 				3B9CA34F244F4E6E00C0B45B /* Betacraft_Launcher_macoS.entitlements */,
+				3BF45FF0245DE6C80063C63C /* NewWindowController.swift */,
+				3BC692C6245CA58100177C70 /* Options.xib */,
 			);
 			path = "Betacraft Launcher macoS";
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			files = (
 				3B9CA34A244F4E6E00C0B45B /* Assets.xcassets in Resources */,
 				3B9CA34D244F4E6E00C0B45B /* Main.storyboard in Resources */,
+				3BC692C7245CA58100177C70 /* Options.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			files = (
 				3B9CA348244F4E6E00C0B45B /* ViewController.swift in Sources */,
 				3B9CA346244F4E6E00C0B45B /* AppDelegate.swift in Sources */,
+				3BF45FF1245DE6C80063C63C /* NewWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

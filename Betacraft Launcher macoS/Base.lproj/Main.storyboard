@@ -152,6 +152,28 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eW5-C1-19x">
+                                <rect key="frame" x="37" y="66" width="103" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Versions" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="jSH-wg-gOu">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showVersionsWithSender:" target="XfG-lQ-9wD" id="PyE-7m-mFw"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yco-MK-aYn">
+                                <rect key="frame" x="37" y="37" width="103" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Options" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Mgo-2p-Aql">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="showOptionsWithSender:" target="XfG-lQ-9wD" id="Xfv-fQ-Cfo"/>
+                                </connections>
+                            </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WkV-cp-MXd">
                                 <rect key="frame" x="297" y="77" width="37" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -181,6 +203,9 @@
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="myButton" destination="Yco-MK-aYn" id="4YD-c1-bTh"/>
+                        <outlet property="myOptions" destination="Yco-MK-aYn" id="ycs-pe-dx4"/>
+                        <outlet property="myVersions" destination="eW5-C1-19x" id="RaS-z1-lf5"/>
                         <outlet property="myWebView" destination="noX-ko-KJl" id="Th9-xi-kcW"/>
                     </connections>
                 </viewController>
