@@ -14,6 +14,10 @@ class ViewController: NSViewController {
     @IBOutlet weak var myButton: NSButton!
     @IBOutlet weak var myVersions: NSButton!
     @IBOutlet weak var myWebView: WKWebView!
+    
+    lazy var newOptionsController = OptionsWindowController()
+    lazy var newVersionController = VersionWindowController()
+    
     let url:URL = URL(string: "https://betacraft.pl/versions/")!
     
     override func viewDidLoad() {
@@ -31,10 +35,12 @@ class ViewController: NSViewController {
     }
     
     @IBAction func showOptions(sender: AnyObject) {
-        print("jes")
+        print("Options window is now open.")
+        newOptionsController.showWindow(nil)
     }
     
     @IBAction func showVersions(sender: AnyObject) {
-        print("versions")
+        print("Versions window is now open.")
+        newVersionController.showWindow(nil)
     }
 }
