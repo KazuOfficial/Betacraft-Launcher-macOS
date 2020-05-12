@@ -10,9 +10,14 @@ import Cocoa
 
 class NewWindowController: NSWindowController {
 
+    convenience init() {
+        self.init(windowNibName: NSNib.Name(rawValue: "Options"))
+    }
+    
     override func windowDidLoad() {
         super.windowDidLoad()
-    
+        
+        contentViewController = ViewController()
         // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
 

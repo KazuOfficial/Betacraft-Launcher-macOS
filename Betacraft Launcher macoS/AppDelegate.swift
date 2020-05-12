@@ -11,10 +11,10 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
+    lazy var newWindowController = NewWindowController()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your applications
+        newWindowController.showWindow(nil)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

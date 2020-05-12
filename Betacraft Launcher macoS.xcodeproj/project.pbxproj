@@ -105,12 +105,12 @@
 				3BC191FE245C84AC00F53E42 /* Betacraft Launcher macoS.entitlements */,
 				3B9CA345244F4E6E00C0B45B /* AppDelegate.swift */,
 				3B9CA347244F4E6E00C0B45B /* ViewController.swift */,
+				3BF45FF0245DE6C80063C63C /* NewWindowController.swift */,
 				3B9CA349244F4E6E00C0B45B /* Assets.xcassets */,
 				3BC19208245C868D00F53E42 /* 8f24dd07579f5ca65d78c8a279e0bac4.jpg */,
 				3B9CA34B244F4E6E00C0B45B /* Main.storyboard */,
 				3B9CA34E244F4E6E00C0B45B /* Info.plist */,
 				3B9CA34F244F4E6E00C0B45B /* Betacraft_Launcher_macoS.entitlements */,
-				3BF45FF0245DE6C80063C63C /* NewWindowController.swift */,
 				3BC692C6245CA58100177C70 /* Options.xib */,
 			);
 			path = "Betacraft Launcher macoS";

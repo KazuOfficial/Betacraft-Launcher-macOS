@@ -171,7 +171,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="showOptionsWithSender:" target="XfG-lQ-9wD" id="Xfv-fQ-Cfo"/>
+                                    <action selector="newWindow:" target="XfG-lQ-9wD" id="jjK-mI-YbL"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WkV-cp-MXd">
