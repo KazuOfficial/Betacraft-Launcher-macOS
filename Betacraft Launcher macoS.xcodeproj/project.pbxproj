@@ -209,6 +209,11 @@
 					3B9CA341244F4E6D00C0B45B = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					3B9CA353244F4E6E00C0B45B = {
 						CreatedOnToolsVersion = 9.2;
@@ -440,7 +445,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Betacraft Launcher macoS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoS";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -455,7 +460,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Betacraft Launcher macoS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macoS";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.kazu.Betacraft-Launcher-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

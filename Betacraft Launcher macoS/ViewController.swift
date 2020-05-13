@@ -43,4 +43,9 @@ class ViewController: NSViewController {
         print("Versions window is now open.")
         newVersionController.showWindow(nil)
     }
+    
+    @IBAction func clickPlay(sender: AnyObject) {
+        print("Play button clicked")
+    }
+    
 }
