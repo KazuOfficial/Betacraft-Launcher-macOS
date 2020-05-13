@@ -10,12 +10,15 @@ import Cocoa
 
 class OptionsWindowController: NSWindowController {
 
+    @IBOutlet weak var argsText: NSTextFieldCell!
     convenience init() {
         self.init(windowNibName: NSNib.Name(rawValue: "OptionsWindowController"))
     }
     
     override func windowDidLoad() {
         super.windowDidLoad()
+        
+        //argstext.
 
         // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
