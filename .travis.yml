@@ -1,0 +1,6 @@
+os: osx
+osx_image: xcode9
+xcode_project: Betacraft Launcher macoS.xcodeproj
+xcode_scheme: Betacraft Launcher macoSTests
+script:
+- set -o pipefail
