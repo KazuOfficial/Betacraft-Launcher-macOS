@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Betacraft Launcher macoS
+//  Betacraft Launcher macOS
 //
 //  Created by Jakub on 4/21/20.
 //  Copyright © 2020 Kazu. All rights reserved.

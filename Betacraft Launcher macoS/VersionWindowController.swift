@@ -8,12 +8,12 @@
 
 import Cocoa
 
-class VersionWindowController: NSWindowController {
+class VersionWindowController: NSWindowController, NSTableViewDataSource, NSTableViewDelegate {
     
-    @IBOutlet weak var myVersionsColumn: NSTableCellView!
-    @IBOutlet weak var myVersionsList: NSTableView!
-    var versions = ["shit"]
+    @IBOutlet weak var tableView: NSTableView!
+    
     let url = URL(string: "http://betacraft.pl/launcher/assets/list.txt")
+    var versions = ["right", "yes", "cool"]
     
     convenience init() {
         self.init(windowNibName: NSNib.Name(rawValue: "VersionWindowController"))
@@ -21,22 +21,16 @@ class VersionWindowController: NSWindowController {
     
     override func windowDidLoad() {
         super.windowDidLoad()
+        
         if let url = URL(string: "http://betacraft.pl/launcher/assets/list.txt") {
             do {
                 let contents = try String(contentsOf: url)
-                versions.append(contents)
                 print(contents)
             } catch {
                 //messagebox
                 print("Cannot load version list!")
             }
         }
-        
-        print(versions)
     }
-    
-    func numberOfRows(myVersionsList: NSTableView) -> Int {
-        return versions.count
-    }
-    
+
 }
