@@ -1,51 +1,38 @@
 //
 //  ViewController.swift
-//  Betacraft Launcher macOS
+//  Betacraft Launcher MacOS
 //
-//  Created by Jakub on 4/21/20.
-//  Copyright © 2020 Kazu. All rights reserved.
+//  Created by Jakub on 6/1/21.
+//  Copyright © 2021 Kazu. All rights reserved.
 //
 
 import Cocoa
 import WebKit
 
 class ViewController: NSViewController {
-    
-    @IBOutlet weak var myButton: NSButton!
-    @IBOutlet weak var myVersions: NSButton!
-    @IBOutlet weak var myWebView: WKWebView!
-    
-    lazy var newOptionsController = OptionsWindowController()
-    lazy var newVersionController = VersionWindowController()
-    
-    let url:URL = URL(string: "https://betacraft.pl/versions/")!
-    
+
+    @IBOutlet var webView: WKWebView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let urlRequest:URLRequest = URLRequest(url: url)
-        myWebView.load(urlRequest)
+        let url = URL(string: "https://betacraft.pl/versions/")
+        let req = URLRequest(url: url!)
+        webView.load(req)
+
         // Do any additional setup after loading the view.
     }
-    
+
     override var representedObject: Any? {
         didSet {
-            // Update the view, if already loaded.
+        // Update the view, if already loaded.
         }
     }
-    
-    @IBAction func showOptions(sender: AnyObject) {
-        print("Options window is now open.")
-        newOptionsController.showWindow(nil)
+
+    @IBAction func Play(_ sender: NSButton) {
+        let task = Process()
+        task.launchPath = "/Users/jakub/Documents/bcwrapper.jar"
+        task.arguments = ["java"]
+        task.launch()
     }
-    
-    @IBAction func showVersions(sender: AnyObject) {
-        print("Versions window is now open.")
-        newVersionController.showWindow(nil)
-    }
-    
-    @IBAction func clickPlay(sender: AnyObject) {
-        print("Play button clicked")
-    }
-    
 }
+

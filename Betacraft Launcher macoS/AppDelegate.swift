@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Betacraft Launcher macoS
+//  Betacraft Launcher MacOS
 //
-//  Created by Jakub on 4/21/20.
-//  Copyright © 2020 Kazu. All rights reserved.
+//  Created by Jakub on 6/1/21.
+//  Copyright © 2021 Kazu. All rights reserved.
 //
 
 import Cocoa
@@ -11,10 +11,12 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    //lazy var newWindowController = NewWindowController()
+    var downloadManager = DownloadManager()
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        //newWindowController.showWindow(nil)
+        
+        downloadManager.Init()
+        // Insert code here to initialize your application
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
